@@ -1,7 +1,7 @@
 import AcmeLogo from "@/app/ui/acme-logo";
 import { ArrowRightIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
-import { plus_jakarta_sans } from "@/app/ui/fonts";
+import { lusitana } from "@/app/ui/fonts";
 import Image from "next/image";
 
 export default function Page() {
@@ -17,7 +17,7 @@ export default function Page() {
             <strong>Welcome to Acme.</strong> This is the example for the{" "}
             <a
               href="https://nextjs.org/learn/"
-              className={`${plus_jakarta_sans.className} antialiased text-blue-500`}
+              className={`${lusitana.className} antialiased text-blue-500`}
             >
               Next.js Learn Course
             </a>
